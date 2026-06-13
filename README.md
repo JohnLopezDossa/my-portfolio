@@ -114,7 +114,7 @@ Through this project, I improved my understanding of:
 
 ## 🔗 Live Project
 
-[Add portfolio link here](https://johnlopezdossa.github.io/my-portfolio/)
+(https://johnlopezdossa.github.io/my-portfolio/)
 
 
 ---
