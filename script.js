@@ -1,11 +1,29 @@
-function showProjects(){
+const menuIcon = document.querySelector(".menu-icon");
 
-document
-.getElementById("projects")
-.scrollIntoView({
+const navLinks = document.querySelector(".nav-links");
 
-behavior: "smooth"
+
+menuIcon.addEventListener("click", () => {
+
+    navLinks.classList.toggle("active");
 
 });
 
-}
+
+
+
+// CLOSE MENU WHEN A LINK IS CLICKED
+
+document.querySelectorAll(".nav-links a").forEach(link => {
+
+
+    link.addEventListener("click", () => {
+
+
+        navLinks.classList.remove("active");
+
+
+    });
+
+
+});
