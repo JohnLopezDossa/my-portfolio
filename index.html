@@ -1,806 +1,695 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta charset="UTF-8">
+    <meta name="description" content="John Lopez Dossa - Information Technology student exploring Data Science, Python, SQL, data analytics and machine learning.">
+    <meta name="author" content="John Lopez Dossa">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Lopez Dossa | Data Science Portfolio</title>
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-<title>
-John Lopez | Portfolio
-</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-
-<link rel="stylesheet" href="style.css">
-
-
-<!-- FONT AWESOME ICONS -->
-
-<link 
-rel="stylesheet" 
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
-
-
 
 <body>
 
+    <!-- HEADER -->
+    <header class="header">
+        <nav class="navbar">
 
-<!-- NAVIGATION -->
+            <a href="#home" class="logo">
+                John Lopez<span>.</span>
+            </a>
 
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#journey">My Journey</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
 
-<!-- NAVIGATION -->
+            <a href="#contact" class="nav-button">
+                Let's Connect
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+
+            <button class="menu-icon"
+                aria-label="Toggle navigation"
+                aria-expanded="false"
+                type="button">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <span class="availability">
+                    <span class="status-dot"></span>
+                    LEARNING • BUILDING • GROWING
+                </span>
 
-<nav>
+                <p class="hero-intro">
+                    Hello, I'm John Lopez Dossa
+                </p>
 
-    <h2 class="logo">
-        John<span>.</span>
-    </h2>
+                <h1>
+                    Exploring Data.<br>
+                    <span>Discovering Insights.</span>
+                </h1>
 
+                <p class="hero-description">
+                    An Information Technology student developing practical
+                    skills in Data Science, Python, SQL and Machine Learning.
+                    Interested in understanding data and turning it into
+                    meaningful solutions.
+                </p>
 
-    <ul class="nav-links">
+                <div class="hero-buttons">
 
-        <li><a href="#home">Home</a></li>
+                    <a href="#projects" class="btn-primary">
+                        Explore My Work
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
 
-        <li><a href="#about">About</a></li>
+                    <a href="#about" class="btn-secondary">
+                        More About Me
+                    </a>
 
-        <li><a href="#skills">Skills</a></li>
+                </div>
 
-        <li><a href="#projects">Projects</a></li>
+                <div class="social-links">
 
-        <li><a href="#contact">Contact</a></li>
+                    <a href="https://github.com/JohnLopezDossa"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
 
-    </ul>
+                    <a href="https://www.linkedin.com/in/mr-john-lopez-532915373/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
 
+                    <a href="mailto:johnlopezdossa@gmail.com"
+                        aria-label="Email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
 
-    <i class="fa-solid fa-bars menu-icon"></i>
+                </div>
 
+            </div>
 
-</nav>
 
+            <!-- DATA VISUALIZATION -->
+            <div class="hero-visual">
 
+                <div class="visual-circle"></div>
 
+                <div class="data-card main-data-card">
+
+                    <div class="data-card-header">
+                        <span>DATA EXPLORATION</span>
+                        <i class="fa-solid fa-chart-line"></i>
+                    </div>
+
+                    <div class="chart-bars">
+                        <span style="height:35%"></span>
+                        <span style="height:60%"></span>
+                        <span style="height:45%"></span>
+                        <span style="height:85%"></span>
+                        <span style="height:70%"></span>
+                        <span style="height:100%"></span>
+                    </div>
 
-<!-- HERO SECTION -->
+                    <div class="chart-footer">
+                        <span>Analyze</span>
+                        <span>Visualize</span>
+                        <span>Understand</span>
+                    </div>
 
+                </div>
 
-<section class="hero" id="home">
+                <div class="floating-tag python-tag">
+                    <i class="fa-brands fa-python"></i>
+                    Python
+                </div>
 
-<p class="small-title">
+                <div class="floating-tag sql-tag">
+                    <i class="fa-solid fa-database"></i>
+                    SQL
+                </div>
 
-SOFTWARE & CREATIVE TECHNOLOGY
+            </div>
 
-</p>
+        </section>
 
 
+        <!-- QUICK INTRO -->
+        <section class="quick-intro">
 
-<h1>
+            <div>
+                <span class="intro-number">01</span>
+                <p>Information Technology</p>
+            </div>
 
-JOHN <br>
-LOPEZ
+            <div>
+                <span class="intro-number">02</span>
+                <p>Data Science Enthusiast</p>
+            </div>
 
-</h1>
+            <div>
+                <span class="intro-number">03</span>
+                <p>Creative Technologist</p>
+            </div>
 
+        </section>
 
 
-<h3>
+        <!-- ABOUT -->
+        <section class="about section-padding" id="about">
 
-Building Digital Solutions. <br>
-Creating Visual Experiences.
+            <div class="section-heading">
+                <span class="section-label">GET TO KNOW ME</span>
 
-</h3>
+                <h2>
+                    More Than Just<br>
+                    <span>A Student.</span>
+                </h2>
+            </div>
 
+            <div class="about-content">
 
+                <div class="about-text">
 
-<p class="intro">
+                    <p>
+                        I'm John Lopez Dossa, an Information Technology
+                        student at the University of Energy and Natural
+                        Resources (UENR), Ghana.
+                    </p>
 
-Information Technology student combining web development,
-cybersecurity, graphic design and digital creativity.
+                    <p>
+                        My journey in technology started with an interest
+                        in building digital solutions. Over time, that
+                        interest expanded into programming, databases,
+                        cybersecurity and creative technology.
+                    </p>
 
-</p>
+                    <p>
+                        I'm currently developing my foundation in Data
+                        Science, exploring Python, SQL, statistics,
+                        data analysis and Machine Learning.
+                    </p>
 
+                    <p>
+                        I believe learning technology goes beyond knowing
+                        the tools. It's about understanding problems,
+                        experimenting with ideas and building things
+                        that work.
+                    </p>
 
+                    <a href="#journey" class="text-link">
+                        Follow My Journey
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
 
-<div class="hero-buttons">
+                </div>
 
+                <div class="about-highlight">
 
-<a href="#projects">
+                    <i class="fa-solid fa-lightbulb"></i>
 
-View Projects
+                    <h3>My Philosophy</h3>
 
-</a>
+                    <p>
+                        Learn continuously. Build practically.
+                        Improve consistently.
+                    </p>
 
+                    <span>Always a student of technology.</span>
 
-<a href="#">
+                </div>
 
-Download CV
+            </div>
 
-</a>
+        </section>
 
 
-</div>
+        <!-- SKILLS -->
+        <section class="skills section-padding" id="skills">
 
+            <div class="section-heading">
 
+                <span class="section-label">MY TOOLKIT</span>
 
+                <h2>
+                    Skills I'm<br>
+                    <span>Developing.</span>
+                </h2>
 
-<div class="socials">
+                <p>
+                    A growing collection of technical skills and tools
+                    I'm exploring through coursework and practical projects.
+                </p>
 
+            </div>
 
-<a href="https://github.com/JohnLopezDossa" target="_blank">
+            <div class="skills-grid">
 
-<i class="fa-brands fa-github"></i>
+                <article class="skill-card">
+                    <i class="fa-brands fa-python"></i>
+                    <h3>Python</h3>
+                    <p>Programming fundamentals and working with data.</p>
+                    <span class="skill-level">Learning & Practising</span>
+                </article>
 
-</a>
+                <article class="skill-card">
+                    <i class="fa-solid fa-database"></i>
+                    <h3>SQL & MySQL</h3>
+                    <p>Database design, queries and data management.</p>
+                    <span class="skill-level">Learning & Practising</span>
+                </article>
 
+                <article class="skill-card">
+                    <i class="fa-solid fa-chart-column"></i>
+                    <h3>Data Analysis</h3>
+                    <p>Exploring datasets and developing analytical skills.</p>
+                    <span class="skill-level">Developing</span>
+                </article>
 
-<a href="https://www.linkedin.com/in/mr-john-lopez-532915373/" target="_blank">
+                <article class="skill-card">
+                    <i class="fa-solid fa-calculator"></i>
+                    <h3>Statistics</h3>
+                    <p>Building a foundation in statistical concepts.</p>
+                    <span class="skill-level">Learning</span>
+                </article>
 
-<i class="fa-brands fa-linkedin"></i>
+                <article class="skill-card">
+                    <i class="fa-solid fa-brain"></i>
+                    <h3>Machine Learning</h3>
+                    <p>Exploring predictive modelling and AI concepts.</p>
+                    <span class="skill-level">Exploring</span>
+                </article>
 
-</a>
+                <article class="skill-card">
+                    <i class="fa-brands fa-github"></i>
+                    <h3>Git & GitHub</h3>
+                    <p>Version control and managing development projects.</p>
+                    <span class="skill-level">Practising</span>
+                </article>
 
+                <article class="skill-card">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>HTML, CSS, JavaScript and responsive interfaces.</p>
+                    <span class="skill-level">Practising</span>
+                </article>
 
-<a href="mailto:ic0548210017@gmail.com">
+                <article class="skill-card">
+                    <i class="fa-solid fa-camera"></i>
+                    <h3>Creative Technology</h3>
+                    <p>Photography, graphic design and visual editing.</p>
+                    <span class="skill-level">Learning & Creating</span>
+                </article>
 
-<i class="fa-solid fa-envelope"></i>
+            </div>
 
-</a>
+        </section>
 
 
-</div>
+        <!-- PROJECTS -->
+        <section class="projects section-padding" id="projects">
 
+            <div class="section-heading">
 
+                <span class="section-label">SELECTED WORK</span>
 
-</section>
+                <h2>
+                    Things I've<br>
+                    <span>Been Building.</span>
+                </h2>
 
+                <p>
+                    Practical projects, experiments and solutions
+                    developed throughout my technology journey.
+                </p>
 
+            </div>
 
+            <div class="project-grid">
 
+                <article class="project-card">
 
+                    <div class="project-icon">
+                        <i class="fa-solid fa-user-graduate"></i>
+                    </div>
 
-<!-- ABOUT -->
+                    <span class="project-category">
+                        PYTHON • BEGINNER PROJECT
+                    </span>
 
+                    <h3>Student Profile System</h3>
 
-<section class="about" id="about">
+                    <p>
+                        A Python program that collects student information,
+                        uses variables and data types, stores information
+                        in a dictionary and displays a formatted profile.
+                    </p>
 
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Dictionaries</span>
+                        <span>Data Types</span>
+                    </div>
 
-<p class="section-label">
+                    <a href="https://github.com/JohnLopezDossa"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        Explore on GitHub
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
 
-WHO I AM
+                </article>
 
-</p>
 
+                <article class="project-card">
 
-<h2>
+                    <div class="project-icon">
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
 
-About Me
+                    <span class="project-category">CYBERSECURITY</span>
 
-</h2>
+                    <h3>Password Strength Checker</h3>
 
+                    <p>
+                        A JavaScript-based tool that evaluates password
+                        strength using common password security criteria
+                        and provides useful feedback to users.
+                    </p>
 
-<div class="about-box">
+                    <div class="project-tags">
+                        <span>JavaScript</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
 
+                    <a href="https://github.com/JohnLopezDossa"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        Explore on GitHub
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
 
-<p>
+                </article>
 
-I'm John Lopez, an Information Technology student
-combining software development, cybersecurity and creative design.
 
-<br><br>
+                <article class="project-card">
 
-I build web solutions, explore secure technologies,
-and create digital experiences through graphic design,
-videography and visual storytelling.
+                    <div class="project-icon">
+                        <i class="fa-solid fa-hotel"></i>
+                    </div>
 
-</p>
+                    <span class="project-category">
+                        DATABASE MANAGEMENT
+                    </span>
 
+                    <h3>Hotel Database System</h3>
 
-</div>
+                    <p>
+                        An academic database project exploring MySQL
+                        tables, relationships and fundamental database
+                        management operations.
+                    </p>
 
+                    <div class="project-tags">
+                        <span>MySQL</span>
+                        <span>SQL</span>
+                        <span>Database Design</span>
+                    </div>
 
-</section>
+                    <a href="https://github.com/JohnLopezDossa"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        Explore on GitHub
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
 
+                </article>
 
 
+                <article class="project-card">
 
+                    <div class="project-icon">
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
 
-<!-- STATS -->
+                    <span class="project-category">WEB DEVELOPMENT</span>
 
+                    <h3>Personal Portfolio</h3>
 
-<section class="stats">
+                    <p>
+                        A personal website showcasing my technical
+                        interests, projects, creative work and
+                        continuous learning journey.
+                    </p>
 
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
 
-<div>
+                    <a href="https://github.com/JohnLopezDossa/my-portfolio"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        Explore on GitHub
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
 
-<h2>5+</h2>
+                </article>
 
-<p>Projects Built</p>
+            </div>
 
-</div>
+        </section>
 
 
+        <!-- LEARNING JOURNEY -->
+        <section class="journey section-padding" id="journey">
 
-<div>
+            <div class="section-heading">
 
-<h2>8+</h2>
+                <span class="section-label">BEHIND THE SCENES</span>
 
-<p>Technologies Learning</p>
+                <h2>
+                    The Journey Is<br>
+                    <span>Just Beginning.</span>
+                </h2>
 
-</div>
+                <p>
+                    I'm documenting my progress, one concept,
+                    one experiment and one project at a time.
+                </p>
 
+            </div>
 
+            <div class="journey-grid">
 
-<div>
+                <article class="journey-card">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Programming</h3>
+                    <p>
+                        Strengthening my Python programming
+                        fundamentals through practical exercises.
+                    </p>
+                </article>
 
-<h2>100%</h2>
+                <article class="journey-card">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <h3>Understanding Data</h3>
+                    <p>
+                        Exploring how data can be analysed,
+                        interpreted and used to answer questions.
+                    </p>
+                </article>
 
-<p>Commitment</p>
+                <article class="journey-card">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h3>Continuous Learning</h3>
+                    <p>
+                        Documenting lessons, challenges and
+                        discoveries throughout my journey.
+                    </p>
+                </article>
 
-</div>
+            </div>
 
+            <a href="https://www.linkedin.com/in/mr-john-lopez-532915373/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-link">
+                Connect with me on LinkedIn
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
 
-</section>
+        </section>
 
 
+        <!-- CREATIVE SIDE -->
+        <section class="creative section-padding" id="creative">
 
+            <div class="section-heading">
 
+                <span class="section-label">MY CREATIVE SIDE</span>
 
+                <h2>
+                    Technology Meets<br>
+                    <span>Creativity.</span>
+                </h2>
 
+                <p>
+                    Beyond technology, I'm also developing my
+                    creative abilities through visual storytelling.
+                </p>
 
-<!-- SKILLS -->
+            </div>
 
+            <div class="creative-grid">
 
-<section class="skills" id="skills">
+                <article class="creative-card">
+                    <i class="fa-solid fa-camera-retro"></i>
+                    <h3>Photography</h3>
+                    <p>
+                        Learning composition, lighting and
+                        capturing meaningful moments.
+                    </p>
+                </article>
 
+                <article class="creative-card">
+                    <i class="fa-solid fa-palette"></i>
+                    <h3>Graphic Design</h3>
+                    <p>
+                        Creating visual concepts, graphics
+                        and digital designs.
+                    </p>
+                </article>
 
-<p class="section-label">
+                <article class="creative-card">
+                    <i class="fa-solid fa-film"></i>
+                    <h3>Photo & Video Editing</h3>
+                    <p>
+                        Developing editing skills and
+                        improving visual presentation.
+                    </p>
+                </article>
 
-TECHNOLOGIES & CREATIVE TOOLS
+            </div>
 
-</p>
+        </section>
 
 
-<div class="skill-box">
+        <!-- CONTACT -->
+        <section class="contact section-padding" id="contact">
 
+            <span class="section-label">LET'S CONNECT</span>
 
-<div>HTML5</div>
+            <h2>
+                Have an Idea?<br>
+                <span>Let's Talk.</span>
+            </h2>
 
-<div>CSS3</div>
+            <p>
+                Open to learning opportunities, collaborations,
+                meaningful conversations and new experiences
+                in technology and Data Science.
+            </p>
 
-<div>JavaScript</div>
+            <div class="contact-buttons">
 
-<div>Git & GitHub</div>
+                <a href="mailto:johnlopezdossa@gmail.com"
+                    class="btn-primary">
+                    Send Me an Email
+                    <i class="fa-solid fa-paper-plane"></i>
+                </a>
 
-<div>MySQL</div>
+                <a href="https://www.linkedin.com/in/mr-john-lopez-532915373/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn-secondary">
+                    LinkedIn
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
 
-<div>Cybersecurity</div>
+            </div>
 
-<div>Photoshop</div>
+            <div class="contact-details">
 
-<div>Graphic Design</div>
+                <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    johnlopezdossa@gmail.com
+                </p>
 
-<div>Videography</div>
+                <p>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Ghana
+                </p>
 
-<div>Video Editing</div>
+            </div>
 
+        </section>
 
-</div>
+    </main>
 
 
-</section>
+    <!-- FOOTER -->
+    <footer class="footer">
 
+        <a href="#home" class="logo">
+            John Lopez<span>.</span>
+        </a>
 
+        <p>
+            Data Science • Technology • Creativity • Continuous Learning
+        </p>
 
+        <p class="copyright">
+            © 2026 John Lopez Dossa. Built with curiosity and continuous learning.
+        </p>
 
+        <a href="#home" class="back-to-top">
+            Back to top
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
 
+    </footer>
 
 
-
-<!-- WHAT I DO -->
-
-
-<section class="services">
-
-
-<p class="section-label">
-
-WHAT I DO
-
-</p>
-
-
-
-<div class="service-card">
-
-
-<h3>
-
-Software Development
-
-</h3>
-
-
-<p>
-
-Building responsive websites and practical digital solutions.
-
-</p>
-
-
-</div>
-
-
-
-
-
-<div class="service-card">
-
-
-<h3>
-
-Cybersecurity
-
-</h3>
-
-
-<p>
-
-Learning security concepts and creating safer digital experiences.
-
-</p>
-
-
-</div>
-
-
-
-
-
-
-<div class="service-card">
-
-
-<h3>
-
-Creative Design
-
-</h3>
-
-
-<p>
-
-Creating graphics, videos and visual content for brands.
-
-</p>
-
-
-</div>
-
-
-
-</section>
-
-
-
-
-
-
-
-<!-- PROJECTS SECTION -->
-
-<section class="projects" id="projects">
-
-<p class="section-title">
-MY WORK
-</p>
-
-<h2>
-FEATURED PROJECTS
-</h2>
-
-<div class="project-container">
-
-
-<div class="project-card">
-
-<img src="images/portfolio.png">
-
-<h3>
-Portfolio Website
-</h3>
-
-<p>
-Responsive personal portfolio built to showcase my growth as an IT student,
-developer and creative.
-</p>
-
-<span>
-HTML • CSS • JavaScript
-</span>
-
-<a href="#">
-View Project
-</a>
-
-</div>
-
-
-
-
-<div class="project-card">
-
-<img src="images/password.png">
-
-<h3>
-Password Strength Checker
-</h3>
-
-<p>
-Cybersecurity project that helps users understand password strength
-and safe authentication practices.
-</p>
-
-<span>
-JavaScript • Security
-</span>
-
-<a href="#">
-View Project
-</a>
-
-</div>
-
-
-
-
-<div class="project-card">
-
-<img src="images/mysql.png">
-
-<h3>
-Hotel Database System
-</h3>
-
-<p>
-Database management project created with MySQL during practical lab sessions.
-</p>
-
-<span>
-MySQL • Database Design
-</span>
-
-<a href="#">
-View Project
-</a>
-
-</div>
-
-
-
-
-<div class="project-card">
-
-<img src="images/design.jpg">
-
-<h3>
-Creative Design Gallery
-</h3>
-
-<p>
-Collection of graphics, photography and video editing projects.
-</p>
-
-<span>
-Photoshop • Lightroom • Premiere Pro
-</span>
-
-<a href="#">
-View Project
-</a>
-
-</div>
-
-
-
-</div>
-
-</section>
-<!-- CREATIVE WORK -->
-
-
-<section class="creative">
-
-
-<p class="section-label">
-
-CREATIVE PORTFOLIO
-
-</p>
-
-
-<h2>
-
-DESIGN & VISUAL WORK
-
-</h2>
-
-
-
-<div class="creative-container">
-
-
-
-<div class="creative-card">
-
-
-<i class="fa-solid fa-palette"></i>
-
-
-<h3>
-
-Graphic Design
-
-</h3>
-
-
-<p>
-
-Creating digital graphics, brand visuals and creative designs.
-
-</p>
-
-
-</div>
-
-
-
-
-
-
-<div class="creative-card">
-
-
-<i class="fa-solid fa-video"></i>
-
-
-<h3>
-
-Videography
-
-</h3>
-
-
-<p>
-
-Capturing and producing creative video content.
-
-</p>
-
-
-</div>
-
-
-
-
-
-
-<div class="creative-card">
-
-
-<i class="fa-solid fa-film"></i>
-
-
-<h3>
-
-Video Editing
-
-</h3>
-
-
-<p>
-
-Transforming ideas into engaging visual stories.
-
-</p>
-
-
-</div>
-
-
-
-</div>
-
-
-</section>
-
-
-
-
-
-
-<!-- CONTACT -->
-
-
-<section class="contact" id="contact">
-
-
-<p class="section-label">
-
-GET IN TOUCH
-
-</p>
-
-
-<h2>
-
-LET'S CREATE SOMETHING AMAZING
-
-</h2>
-
-
-
-<p class="contact-text">
-
-Have an idea, project, collaboration or opportunity?
-Let's connect and build something valuable.
-
-</p>
-
-
-
-<div class="contact-links">
-
-
-<a href="mailto:ic0548210017@gmail.com">
-
-
-<i class="fa-solid fa-envelope"></i>
-
-Email
-
-</a>
-
-
-
-<a 
-href="https://github.com/JohnLopezDossa"
-target="_blank">
-
-
-<i class="fa-brands fa-github"></i>
-
-GitHub
-
-</a>
-
-
-
-<a 
-href="https://www.linkedin.com/in/mr-john-lopez-532915373/"
-target="_blank">
-
-
-<i class="fa-brands fa-linkedin"></i>
-
-LinkedIn
-
-</a>
-
-
-</div>
-<form 
-class="message-form"
-action="https://formspree.io/f/YOUR_CODE"
-method="POST"
->
-
-
-<input 
-type="text"
-name="name"
-placeholder="Your Name"
-required>
-
-
-<input 
-type="email"
-name="email"
-placeholder="Your Email"
-required>
-
-
-<textarea
-name="message"
-placeholder="Your Message"
-required>
-</textarea>
-
-
-<button type="submit">
-
-Send Message
-
-</button>
-
-
-</form>
-
-
-
-<div class="contact-details">
-
-
-<p>
-<i class="fa-solid fa-envelope"></i>
-ic0548210017@gmail.com
-</p>
-
-
-<p>
-<i class="fa-solid fa-phone"></i>
-0535542438
-</p>
-
-
-<p>
-<i class="fa-solid fa-location-dot"></i>
-Sunyani, Ghana
-</p>
-
-
-</div>
-
-
-
-
-
-
-</section>
-
-
-
-
-
-<footer>
-
-
-<h2>
-
-John Lopez<span>.</span>
-
-</h2>
-
-
-
-<p>
-
-Software Development • Cybersecurity • Graphic Design • Videography
-
-</p>
-
-
-
-<p>
-
-© 2026 Chris Lopez. Built with passion and continuous learning.
-
-</p>
-
-
-</footer>
-
-
-
-
-
-<script src="script.js"></script>
-
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
 
 </body>
-
-
 </html>
